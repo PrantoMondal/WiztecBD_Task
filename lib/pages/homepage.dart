@@ -15,6 +15,7 @@ class Homepage extends StatelessWidget {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Colors.teal,
+        elevation: 0,
         title: const Text("Table Data"),
         centerTitle: true,
       ),
